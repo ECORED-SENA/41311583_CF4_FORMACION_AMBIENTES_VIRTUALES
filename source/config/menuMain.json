@@ -1,0 +1,52 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  }, 
+  {
+    "id": 1,
+    "icon": "fa fa-file-text",
+    "slug": "instrumentos_evaluacion",
+    "title": "1. Instrumentos de evaluación",
+    "breadcrumb": ["Inicio","Instrumentos de evaluación"],
+    "path": "pages/tema_1.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "instrumentos_evaluacion",
+        "title": "1.1 Evaluación en formación virtual",
+        "anchor": "tema1_1"
+      }
+    ]   
+  }, 
+  {
+    "id": 2,
+    "icon": "fa fa-file-text",
+    "slug": "momento_cierre_formacion_virtual",
+    "title": "2. Momento de cierre de la formación virtual",
+    "breadcrumb": ["Inicio", "Momento de cierre de la formación virtual"],
+    "path": "pages/tema_2.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "momento_cierre_formacion_virtual",
+        "title": "2.1 Juicios evaluativos",
+        "anchor": "tema2_1"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "momento_cierre_formacion_virtual",
+        "title": "2.2 Acciones al finalizar el curso ",
+        "anchor": "tema2_2"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "momento_cierre_formacion_virtual",
+        "title": "2.3 Seguimiento y reportes",
+        "anchor": "tema2_3"
+      }
+    ]
+  }
+]
